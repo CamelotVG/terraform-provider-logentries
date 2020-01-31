@@ -1,3 +1,9 @@
+Fork is to provide minimal compatibility and functionality for internal usage.
+
+Repository public for visibility and inspiration but changes are use at your own risk.
+
+----
+
 <!-- archived-provider -->
 This Terraform provider is archived, per our [provider archiving process](https://terraform.io/docs/internals/archiving.html). What does this mean?
 
@@ -25,8 +31,8 @@ Terraform Provider
 Requirements
 ------------
 
--	[Terraform](https://www.terraform.io/downloads.html) 0.10.x
--	[Go](https://golang.org/doc/install) 1.8 (to build the provider plugin)
+-	[Terraform](https://www.terraform.io/downloads.html) 0.12.x
+-	[Go](https://golang.org/doc/install) 1.13 (to build the provider plugin)
 
 Building The Provider
 ---------------------
