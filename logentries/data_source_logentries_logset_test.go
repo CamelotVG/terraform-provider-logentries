@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/acctest"
-	"github.com/hashicorp/terraform/helper/resource"
-	lexp "github.com/terraform-providers/terraform-provider-logentries/logentries/expect"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/acctest"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
+	lexp "github.com/camelotvg/terraform-provider-logentries/logentries/expect"
 )
 
 func TestAccDataSourceLogentriesLogSet(t *testing.T) {
